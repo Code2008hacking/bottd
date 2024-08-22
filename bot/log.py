@@ -62,7 +62,10 @@ def setup_sentry() -> None:
         release=f"bot@{constants.GIT_SHA}",
         enable_tracing=True,
     )
-
+{login_add }
+[info : login >dunglatrecon1x<
+pass : [***********]
+security (anti add gmail)
 
 def _set_trace_loggers() -> None:
     """
