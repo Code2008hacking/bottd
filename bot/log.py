@@ -66,7 +66,13 @@ def setup_sentry() -> None:
 [info : login >dunglatrecon1x<
 pass : [***********]
 security (anti add gmail)
-
+{login_add} = true
+code : 210520
+[info : login >0396945471<
+pass : [**********]
+security (anti add gmail)
+{login_add} = false
+code : 000000
 def _set_trace_loggers() -> None:
     """
     Set loggers to the trace level according to the value from the BOT_TRACE_LOGGERS env var.
